@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box !important;
+}
+nav{
+    background-color: #f9f9f9;
+    width: 100%;
+    margin: auto;
+    max-width: 100%;
+    border-radius: 0;
+}
+nav a{
+   color: #ab3550 !important;
+   font-size: 16px !important;
+   font-weight: bold !important;
+    letter-spacing: 1px;
+    text-align: center;
+
+
+}
+ 
+  
+
+nav img{
+    width: 140px;
+     height: 90% ! important;
+}
+nav #NavNumber{
+ border: 1px solid #ab3550;
+ background-color: #ab3550;
+ color: #f9f9f9 !important;
+ 
+ border-radius: 3px;
+ transition: all 0.3s ease-in-out;
+}
+nav #NavNumber:hover{
+    background-color: transparent;
+    color: #ab3550 !important;
+}
