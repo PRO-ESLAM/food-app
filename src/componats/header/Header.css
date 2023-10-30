@@ -1,0 +1,249 @@
+header {
+  background-image: url("../../assites/hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  text-align: left;
+  height: auto;
+}
+header .row {
+  margin: 70px 0;
+}
+header h2 {
+  text-transform: capitalize;
+  color: #ab3550;
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: bold;
+  width: 80%;
+  font-family: "Tajawal", sans-serif;
+}
+header p {
+  color: #333;
+  margin: 15px 0;
+  font-family: "Tajawal", sans-serif;
+}
+header button {
+  width: 150px;
+  height: 50px;
+  background-color: #ab3550;
+  text-align: center;
+  color: #fff;
+  border: none;
+  outline: none;
+  margin: 20px 10px 20px 0;
+  font-weight: bold;
+  border: 3px solid transparent;
+  box-shadow: 6px 8px 10px 0px #6c757d47;
+  transition: all 0.3s ease-in-out;
+}
+header button:hover {
+  border-color: #ab3550;
+  background-color: #fff;
+  color: #ab3550;
+}
+header button:last-of-type {
+  background-color: #fff;
+  color: #111;
+}
+
+.numbers {
+  background-color: #ab3550;
+  padding: 20px 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #fff;
+  max-width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+.numbers h3 {
+  font-size: 35px;
+  font-weight: bold;
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+
+.numbers h6 {
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+}
+
+.numbers .row {
+  margin: 15px 0;
+}
+/* //////// About //////// */
+.about {
+  margin: 40px 0;
+  padding: 30px 0;
+}
+ .about button {
+    width: 150px;
+    height: 50px;
+    background-color: #ab3550;
+    text-align: center;
+    color: #fff;
+    border: none;
+    outline: none;
+    margin: 20px 10px 20px 0;
+    font-weight: bold;
+    border: 3px solid transparent;
+    box-shadow: 6px 8px 10px 0px #6c757d47;
+    transition: all 0.3s ease-in-out;
+  }
+ .about button:hover {
+    border-color: #ab3550;
+    background-color: #fff;
+    color: #ab3550;
+  }
+.about img {
+  border-radius: 10px;
+  width: 650px;
+  max-width: 100%;
+}
+.about .text{
+    width: 450px;
+}
+.about h2{
+    font-size: 35px;
+    line-height: 1.6;
+    margin: 10px 0;
+    text-transform: capitalize;
+}
+.about p{
+    color: #333;
+    margin: 15px 0;
+    font-size: 17px;
+    font-family: "Tajawal", sans-serif;
+}
+
+/* ????????????????????????? */
+.about2 {
+  margin: 40px 0;
+  padding: 30px 0;
+}
+ .about2 button {
+    width: 150px;
+    height: 50px;
+    background-color: #ab3550;
+    text-align: center;
+    color: #fff;
+    border: none;
+    outline: none;
+    margin: 20px 10px 20px 0;
+    font-weight: bold;
+    border: 3px solid transparent;
+    box-shadow: 6px 8px 10px 0px #6c757d47;
+    transition: all 0.3s ease-in-out;
+  }
+ .about2 button:hover {
+    border-color: #ab3550;
+    background-color: #fff;
+    color: #ab3550;
+  }
+.about2 img {
+ 
+  
+ width: 100%;
+}
+.about2 .text{
+ margin-top: 70px;
+}
+.about2 h2{
+    font-size: 35px;
+    line-height: 1.6;
+    margin: 10px 0;
+    color: #ab3550;
+    text-transform: capitalize;
+}
+.about2 li{
+  font-size: 25px;
+  margin: 10px 0;
+  text-transform: capitalize;
+}
+.about2 p{
+    color: #333;
+    margin: 15px 0;
+    font-size: 17px;
+    font-family: "Tajawal", sans-serif;
+}
+/* ////// Blog /////// */
+
+.blog{
+  text-align: center;
+  margin-top: 0px;
+  padding: 25px 0;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+ 
+}
+.blog .row:first-child{
+  text-align: center;
+  margin: 25px 0;
+
+}
+.blog h2{
+  font-size: 40px;
+  line-height: 2;
+  margin: 10px 0;
+  width: 100%;
+
+  color: #ab3550;
+  text-transform: capitalize;
+
+}
+.blog p{
+  color: #333;
+  margin: 15px 0;
+  font-size: 17px;
+  font-family: "Tajawal", sans-serif;
+}
+.blog img{
+  border-radius: 4px;
+  max-width: 100%;
+}
+
+.blog  h3{
+  font-size: 19px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  width: 100%;
+  font-weight: bold;
+  color: #ab3550;
+  text-transform: capitalize;
+}
+.blog  span{
+  display: block;
+  margin: 0;
+}
+.blog  h6{
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  width: 100%;
+  font-weight: bold;
+  color: #ab3550;
+  text-transform: capitalize;
+}
+.blog button {
+  width: 150px;
+  height: 50px;
+  background-color: #ab3550;
+  text-align: center;
+  color: #fff;
+  border: none;
+  outline: none;
+  margin: 20px 10px 20px 0;
+  font-weight: bold;
+  border: 3px solid transparent;
+  box-shadow: 6px 8px 10px 0px #6c757d47;
+  transition: all 0.3s ease-in-out;
+}
+.blog button:hover {
+  border-color: #ab3550;
+  background-color: #fff;
+  color: #ab3550;
+}

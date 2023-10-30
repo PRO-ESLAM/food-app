@@ -1,12 +1,12 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
+import Navbar from "react-bootstrap/Navbar"; 
 import logo from '../assites/logo.png'
 import './Nav.css'
 function NavBar() {
   return (
     <>
-      <Navbar collapseOnSelect expand="lg"  >
+      <Navbar   collapseOnSelect expand="lg"  >
         <Container>
           <Navbar.Brand href="#home">
             <img src={logo} alt="Logo"/>
