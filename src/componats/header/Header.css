@@ -9,9 +9,11 @@ header {
   text-align: left;
   height: auto;
 }
+
 header .row {
   margin: 70px 0;
 }
+
 header h2 {
   text-transform: capitalize;
   color: #ab3550;
@@ -21,11 +23,13 @@ header h2 {
   width: 80%;
   font-family: "Tajawal", sans-serif;
 }
+
 header p {
   color: #333;
   margin: 15px 0;
   font-family: "Tajawal", sans-serif;
 }
+
 header button {
   width: 150px;
   height: 50px;
@@ -40,11 +44,13 @@ header button {
   box-shadow: 6px 8px 10px 0px #6c757d47;
   transition: all 0.3s ease-in-out;
 }
+
 header button:hover {
   border-color: #ab3550;
   background-color: #fff;
   color: #ab3550;
 }
+
 header button:last-of-type {
   background-color: #fff;
   color: #111;
@@ -59,6 +65,7 @@ header button:last-of-type {
   text-align: center;
   overflow: hidden;
 }
+
 .numbers h3 {
   font-size: 35px;
   font-weight: bold;
@@ -74,49 +81,56 @@ header button:last-of-type {
 .numbers .row {
   margin: 15px 0;
 }
+
 /* //////// About //////// */
 .about {
   margin: 40px 0;
   padding: 30px 0;
 }
- .about button {
-    width: 150px;
-    height: 50px;
-    background-color: #ab3550;
-    text-align: center;
-    color: #fff;
-    border: none;
-    outline: none;
-    margin: 20px 10px 20px 0;
-    font-weight: bold;
-    border: 3px solid transparent;
-    box-shadow: 6px 8px 10px 0px #6c757d47;
-    transition: all 0.3s ease-in-out;
-  }
- .about button:hover {
-    border-color: #ab3550;
-    background-color: #fff;
-    color: #ab3550;
-  }
+
+.about button {
+  width: 150px;
+  height: 50px;
+  background-color: #ab3550;
+  text-align: center;
+  color: #fff;
+  border: none;
+  outline: none;
+  margin: 20px 10px 20px 0;
+  font-weight: bold;
+  border: 3px solid transparent;
+  box-shadow: 6px 8px 10px 0px #6c757d47;
+  transition: all 0.3s ease-in-out;
+}
+
+.about button:hover {
+  border-color: #ab3550;
+  background-color: #fff;
+  color: #ab3550;
+}
+
 .about img {
   border-radius: 10px;
   width: 650px;
   max-width: 100%;
 }
-.about .text{
-    width: 450px;
+
+.about .text {
+  width: 450px;
 }
-.about h2{
-    font-size: 35px;
-    line-height: 1.6;
-    margin: 10px 0;
-    text-transform: capitalize;
+
+.about h2 {
+  font-size: 35px;
+  line-height: 1.6;
+  margin: 10px 0;
+  text-transform: capitalize;
 }
-.about p{
-    color: #333;
-    margin: 15px 0;
-    font-size: 17px;
-    font-family: "Tajawal", sans-serif;
+
+.about p {
+  color: #333;
+  margin: 15px 0;
+  font-size: 17px;
+  font-family: "Tajawal", sans-serif;
 }
 
 /* ????????????????????????? */
@@ -124,68 +138,74 @@ header button:last-of-type {
   margin: 40px 0;
   padding: 30px 0;
 }
- .about2 button {
-    width: 150px;
-    height: 50px;
-    background-color: #ab3550;
-    text-align: center;
-    color: #fff;
-    border: none;
-    outline: none;
-    margin: 20px 10px 20px 0;
-    font-weight: bold;
-    border: 3px solid transparent;
-    box-shadow: 6px 8px 10px 0px #6c757d47;
-    transition: all 0.3s ease-in-out;
-  }
- .about2 button:hover {
-    border-color: #ab3550;
-    background-color: #fff;
-    color: #ab3550;
-  }
+
+.about2 button {
+  width: 150px;
+  height: 50px;
+  background-color: #ab3550;
+  text-align: center;
+  color: #fff;
+  border: none;
+  outline: none;
+  margin: 20px 10px 20px 0;
+  font-weight: bold;
+  border: 3px solid transparent;
+  box-shadow: 6px 8px 10px 0px #6c757d47;
+  transition: all 0.3s ease-in-out;
+}
+
+.about2 button:hover {
+  border-color: #ab3550;
+  background-color: #fff;
+  color: #ab3550;
+}
+
 .about2 img {
- 
-  
- width: 100%;
+  width: 100%;
 }
-.about2 .text{
- margin-top: 70px;
+
+.about2 .text {
+  margin-top: 70px;
 }
-.about2 h2{
-    font-size: 35px;
-    line-height: 1.6;
-    margin: 10px 0;
-    color: #ab3550;
-    text-transform: capitalize;
+
+.about2 h2 {
+  font-size: 35px;
+  line-height: 1.6;
+  margin: 10px 0;
+  color: #ab3550;
+  text-transform: capitalize;
 }
-.about2 li{
+
+.about2 li {
   font-size: 25px;
   margin: 10px 0;
   text-transform: capitalize;
 }
-.about2 p{
-    color: #333;
-    margin: 15px 0;
-    font-size: 17px;
-    font-family: "Tajawal", sans-serif;
+
+.about2 p {
+  color: #333;
+  margin: 15px 0;
+  font-size: 17px;
+  font-family: "Tajawal", sans-serif;
 }
+
 /* ////// Blog /////// */
 
-.blog{
+.blog {
   text-align: center;
   margin-top: 0px;
   padding: 25px 0;
   overflow: hidden;
   width: 100%;
   height: auto;
- 
 }
-.blog .row:first-child{
+
+.blog .row:first-child {
   text-align: center;
   margin: 25px 0;
-
 }
-.blog h2{
+
+.blog h2 {
   font-size: 40px;
   line-height: 2;
   margin: 10px 0;
@@ -193,20 +213,21 @@ header button:last-of-type {
 
   color: #ab3550;
   text-transform: capitalize;
-
 }
-.blog p{
+
+.blog p {
   color: #333;
   margin: 15px 0;
   font-size: 17px;
   font-family: "Tajawal", sans-serif;
 }
-.blog img{
+
+.blog img {
   border-radius: 4px;
   max-width: 100%;
 }
 
-.blog  h3{
+.blog h3 {
   font-size: 19px;
   margin-top: 10px;
   margin-bottom: 0;
@@ -215,11 +236,13 @@ header button:last-of-type {
   color: #ab3550;
   text-transform: capitalize;
 }
-.blog  span{
+
+.blog span {
   display: block;
   margin: 0;
 }
-.blog  h6{
+
+.blog h6 {
   font-size: 25px;
   margin-top: 10px;
   margin-bottom: 0;
@@ -228,6 +251,7 @@ header button:last-of-type {
   color: #ab3550;
   text-transform: capitalize;
 }
+
 .blog button {
   width: 150px;
   height: 50px;
@@ -242,8 +266,152 @@ header button:last-of-type {
   box-shadow: 6px 8px 10px 0px #6c757d47;
   transition: all 0.3s ease-in-out;
 }
+
 .blog button:hover {
   border-color: #ab3550;
   background-color: #fff;
   color: #ab3550;
+}
+
+/* ///////////// Slider //////////////////////// */
+.slider {
+  background-color: #ab3550;
+  width: 100%;
+  text-align: center;
+  border: 1px solid #ab3550;
+  padding: 50px 0;
+}
+
+.slider img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+  margin: 20px 0;
+  margin-bottom: 150px;
+}
+
+.slider .carousel {
+  margin: 40px 0;
+  border: 1px solid aliceblue;
+  background-color: aliceblue;
+  border-radius: 15px;
+  padding: 25px 0;
+}
+
+.slider .Testimonials h2 {
+  font-size: 44px;
+  margin-top: 10px;
+  letter-spacing: 0.3px;
+  margin-bottom: 0;
+  width: 100%;
+  font-weight: bold;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.slider .carousel-caption p {
+  color: #333;
+
+  font-size: 17px;
+  font-family: "Tajawal", sans-serif;
+}
+
+.slider .carousel-caption span {
+  color: #ab3550;
+  font-weight: bold;
+  display: block;
+  text-transform: capitalize;
+}
+
+.slider .carousel-indicators [data-bs-target] {
+  box-sizing: border-box;
+  flex: 0 1 auto;
+  width: 30px;
+  height: 40px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #b3b3b3;
+}
+
+/* ////////////// Contact  ///////////////// */
+.contact {
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.contact h2 {
+  font-size: 33px;
+
+  letter-spacing: 0.3px;
+
+  width: 100%;
+  font-weight: bold;
+  color: #333;
+  text-transform: capitalize;
+}
+.contact p {
+  color: #777;
+
+  font-size: 17px;
+  font-family: "Tajawal", sans-serif;
+}
+.contact button {
+  width: 150px;
+  height: 50px;
+  background-color: #ab3550;
+  text-align: center;
+  color: #fff;
+  border: none;
+  outline: none;
+
+  margin: 20px 10px 20px 0;
+  font-weight: bold;
+  border: 3px solid transparent;
+  box-shadow: 6px 8px 10px 0px #6c757d47;
+  transition: all 0.3s ease-in-out;
+  margin-left: 20px;
+}
+
+.contact button:hover {
+  border-color: #ab3550;
+  background-color: #fff;
+  color: #ab3550;
+}
+.contact input {
+  width: 319px;
+  height: 50px;
+  border-radius: 3px;
+  margin: 0px;
+  border-width: 3px;
+  border-color: #77777737;
+  outline: none;
+}
+.footer {
+  background-color: #ab3550;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+.footer ul{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.footer li{
+  font-size: 20px;
+  text-decoration: underline;
+}
+.footer p{
+  color: #fff;
+  font-size: 17px;
+  font-family: "Tajawal", sans-serif;
 }
